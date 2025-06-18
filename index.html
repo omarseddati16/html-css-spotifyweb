@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -19,9 +22,9 @@
           <img class="spotify-logo" src="css/img/logo.svg" alt="">
           <div class="p-10">
             <ul>
-              <li>Home</li>
-              <li>Cerca</li>
-              <li>la tua libreria</li>
+              <li><img src="css/img/home.svg" alt=""> Home</li>
+              <li><img src="css/img/search.svg" alt=""> Cerca</li>
+              <li><img src="css/img/libreria.svg" alt=""> la tua libreria</li>
             </ul>
           </div>
           <!-- parte principale e logo fine -->
@@ -30,7 +33,7 @@
           <div class="p-10">
             <h4>Playlist</h4>
             <ul class="playlist">
-              <li>Crea Playlist</li>
+              <li><i class="fa-regular fa-square-plus"></i> Crea Playlist</li>
               <li>Nome playlist</li>
               <li>Nome playlist</li>
               <li>Nome playlist</li>
@@ -46,7 +49,7 @@
           <div class="fondo">
             <span>Installa app</span>
             <hr>
-            <strong> John Doe</strong>
+            <strong><img src="css/img/profile.svg" alt=""> John Doe</strong>
           </div>
         </div>
         <!-- parte bassa della colonna laterale fine -->
@@ -156,8 +159,32 @@
   </main>
   <footer class="row">
     <div class="brano">?</div>
-    <div class="bottoni">?</div>
-    <div class="volume">?</div>
+    <div class="bottoni">
+      <div class="interagire">
+        <i class="p-rl-20 fa-solid fa-shuffle"></i>
+        <i class="p-rl-20 fa-solid fa-backward-step"></i>
+        <i class="p-rl-20 fa-regular fa-circle-play"></i>
+        <i class="p-rl-20 fa-solid fa-forward-step"></i>
+        <i class="p-rl-20 fa-solid fa-rotate-right"></i>
+      </div>
+      <div class="tempo">
+        <time datetime="0:25">0:25</time>
+        <div class="barra">
+          <div class="barra-tempo"></div>
+        </div>
+        <time datetime="4:35">4:35</time>
+      </div>
+    </div>
+    <div class="volume">
+      <div class="row">
+        <i class="p-rl-20 fa-solid fa-list-ul"></i>
+        <i class="p-rl-20 fa-solid fa-display"></i>
+        <i class="p-rl-20 fa-solid fa-volume-high"></i>
+        <div class="barra-volume">
+          <div class="barra-volume-attuale"></div>
+        </div>
+      </div>
+    </div>
   </footer>
 </body>
 

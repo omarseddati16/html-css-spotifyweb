@@ -33,6 +33,11 @@ ul {
 
 }
 
+.p-rl-20 {
+  padding: 0px 20px;
+  color: white;
+}
+
 .p-110 {
   padding-top: 110px;
 }
@@ -72,6 +77,14 @@ main {
 main ul li {
   margin-top: 8px;
 
+}
+
+main ul li img {
+  height: 30px;
+}
+
+main strong img {
+  height: 25px;
 }
 
 
@@ -142,6 +155,10 @@ footer {
   background-color: rgb(52, 52, 53);
 }
 
+time {
+  color: white;
+}
+
 footer img {
   height: 70px;
   padding: 10px;
@@ -163,3 +180,53 @@ footer img {
   text-align: end;
 
 }
+
+.interagire {
+  color: white;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+}
+
+.barra {
+  background-color: #5e5e5e;
+  border-radius: 8px;
+  height: 4px;
+  width: 500px;
+  margin: 0px 25px;
+}
+
+.barra-tempo {
+  background-color: #cac8c8;
+  border-radius: 8px;
+  height: 4px;
+  width: 100px;
+}
+
+.tempo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.volume {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.barra-volume {
+  background-color: #5e5e5e;
+  border-radius: 8px;
+  height: 4px;
+  width: 130px;
+  margin: 5px 10px;
+
+}
+
+.barra-volume-attuale {
+  background-color: #cac8c8;
+  border-radius: 8px;
+  height: 4px;
+  width: 20px;
