@@ -76,12 +76,26 @@ main ul li {
 
 /* contenuto main */
 
+main img {
+  max-width: 100%;
+}
+
 #contenuto {
   height: 100%;
   width: calc(100vw - 100px);
   background-color: rgb(46, 55, 73);
   overflow: y;
 
+}
+
+.spazio-t2 {
+  margin-top: 150px;
+  padding: 0px 0px 0px 20px;
+}
+
+.spazio-t3 {
+  margin-top: 50px;
+  padding: 0px 0px 0px 20px;
 }
 
 .scritte {
@@ -95,6 +109,18 @@ main ul li {
   height: 150px;
   border: 2px black dotted;
   margin: 5px;
+}
+
+.colonne-rotonde {
+  width: calc((100% / 6) - ((24px * 5) / 6));
+  background-color: red;
+  height: 150px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.rotonde {
+  border-radius: 50%;
 }
 
 /* footer */
