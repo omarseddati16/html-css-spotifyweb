@@ -268,3 +268,13 @@ footer img {
 .dritto {
   align-items: center;
 }
+
+/* altri schermi */
+
+@media screen and (max-width: 992px) {
+
+  .container {
+    width: 100%;
+  }
+
+}
