@@ -10,6 +10,12 @@ ul {
   list-style-type: none;
 }
 
+
+.h-m:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 .container {
   width: 1200px;
   margin: 10px;
@@ -35,6 +41,10 @@ ul {
 
 .p-rl-20 {
   padding: 0px 20px;
+  color: white;
+}
+
+.white {
   color: white;
 }
 
@@ -162,7 +172,6 @@ time {
 footer img {
   height: 70px;
   padding: 10px;
-
 }
 
 .brano {
@@ -230,3 +239,8 @@ footer img {
   border-radius: 8px;
   height: 4px;
   width: 20px;
+}
+
+.dritto {
+  align-items: center;
+}
