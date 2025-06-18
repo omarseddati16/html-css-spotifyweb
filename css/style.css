@@ -23,12 +23,18 @@ ul {
   padding: 20px;
 }
 
+
 .p-10 {
   padding: 10px;
 }
 
 .m-20 {
   margin: 20px;
+
+}
+
+.p-110 {
+  padding-top: 110px;
 }
 
 /* header nel main */
@@ -37,6 +43,8 @@ header {
   width: 100%;
   height: 100px;
   background-color: rgb(19, 18, 18);
+  justify-content: flex-end;
+  position: fixed
 }
 
 .btn {
@@ -44,6 +52,7 @@ header {
   border-radius: 15px;
   color: rgb(7, 7, 7);
   background-color: rgb(255, 255, 255);
+
 }
 
 
@@ -69,16 +78,13 @@ main ul li {
   background-color: rgb(163, 13, 13);
   height: 100%;
   color: rgb(218, 192, 192);
-
 }
 
 .spotify-logo {
   width: 9rem;
 }
 
-.fondo {
-  text-align: end;
-}
+.fondo {}
 
 /* contenuto main */
 
@@ -88,9 +94,9 @@ main img {
 
 #contenuto {
   height: 100%;
-  width: calc(100vw - 100px);
+  width: calc(100vw - 250px);
   background-color: rgb(46, 55, 73);
-  overflow: y;
+  overflow-y: auto;
 
 }
 
