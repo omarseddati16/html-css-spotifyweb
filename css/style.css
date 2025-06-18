@@ -11,7 +11,7 @@ ul {
 }
 
 .container {
-  width: 1080px;
+  width: 1200px;
   margin: 10px;
 }
 
@@ -61,6 +61,7 @@ main ul li {
 
 }
 
+
 /* barra laterale*/
 
 #b-laterale {
@@ -68,10 +69,15 @@ main ul li {
   background-color: rgb(163, 13, 13);
   height: 100%;
   color: rgb(218, 192, 192);
+
 }
 
 .spotify-logo {
   width: 9rem;
+}
+
+.fondo {
+  text-align: end;
 }
 
 /* contenuto main */
@@ -94,7 +100,7 @@ main img {
 }
 
 .spazio-t3 {
-  margin-top: 50px;
+  margin-top: 80px;
   padding: 0px 0px 0px 20px;
 }
 
@@ -105,15 +111,12 @@ main img {
 
 .colonne {
   width: calc((100% / 6) - ((24px * 5) / 6));
-  background-color: red;
   height: 150px;
-  border: 2px black dotted;
   margin: 5px;
 }
 
 .colonne-rotonde {
   width: calc((100% / 6) - ((24px * 5) / 6));
-  background-color: red;
   height: 150px;
   border-radius: 50%;
   margin: 5px;
@@ -128,4 +131,26 @@ main img {
 footer {
   height: 100px;
   background-color: rgb(52, 52, 53);
+}
+
+footer img {
+  height: 70px;
+  padding: 10px;
+
+}
+
+.brano {
+  width: 25%;
+  text-align: start;
+}
+
+.bottoni {
+  width: 50%;
+  text-align: center;
+}
+
+.volume {
+  width: 25%;
+  text-align: end;
+
 }
