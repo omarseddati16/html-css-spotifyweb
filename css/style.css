@@ -10,6 +10,11 @@ ul {
   list-style-type: none;
 }
 
+.container {
+  width: 1080px;
+  margin: 10px;
+}
+
 .row {
   display: flex;
 }
@@ -20,6 +25,10 @@ ul {
 
 .p-10 {
   padding: 10px;
+}
+
+.m-20 {
+  margin: 20px;
 }
 
 /* header nel main */
@@ -65,7 +74,7 @@ main ul li {
   width: 9rem;
 }
 
-/* contenuto */
+/* contenuto main */
 
 #contenuto {
   height: 100%;
@@ -78,6 +87,14 @@ main ul li {
 .scritte {
   justify-content: center;
 
+}
+
+.colonne {
+  width: calc((100% / 6) - ((24px * 5) / 6));
+  background-color: red;
+  height: 150px;
+  border: 2px black dotted;
+  margin: 5px;
 }
 
 /* footer */
