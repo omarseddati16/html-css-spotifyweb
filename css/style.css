@@ -4,31 +4,25 @@
   box-sizing: border-box;
 }
 
+/* utili */
 
-main {
-  height: calc(100vh - 100px);
-  background-color: yellow;
+ul {
+  list-style-type: none;
+}
+
+.row {
   display: flex;
 }
 
-#b-laterale {
-  width: 250px;
-  background-color: rgb(5, 5, 5);
-  height: 100%;
+.p-20 {
+  padding: 20px;
 }
 
-footer {
-  height: 100px;
-  background-color: rgb(52, 52, 53);
+.p-10 {
+  padding: 10px;
 }
 
-#contenuto {
-  height: 100%;
-  width: calc(100vw - 100px);
-  background-color: rgb(10, 16, 29);
-  overflow: y;
-
-}
+/* header nel main */
 
 header {
   width: 100%;
@@ -41,4 +35,54 @@ header {
   border-radius: 15px;
   color: rgb(7, 7, 7);
   background-color: rgb(255, 255, 255);
+}
+
+
+/* main */
+
+
+main {
+  height: calc(100vh - 100px);
+  background-color: yellow;
+  display: flex;
+}
+
+main ul li {
+  margin-top: 8px;
+
+}
+
+/* barra laterale*/
+
+#b-laterale {
+  width: 250px;
+  background-color: rgb(163, 13, 13);
+  height: 100%;
+  color: rgb(218, 192, 192);
+}
+
+.spotify-logo {
+  width: 9rem;
+}
+
+/* contenuto */
+
+#contenuto {
+  height: 100%;
+  width: calc(100vw - 100px);
+  background-color: rgb(46, 55, 73);
+  overflow: y;
+
+}
+
+.scritte {
+  justify-content: center;
+
+}
+
+/* footer */
+
+footer {
+  height: 100px;
+  background-color: rgb(52, 52, 53);
 }
