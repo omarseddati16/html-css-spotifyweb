@@ -103,7 +103,7 @@ h4 {
 }
 
 main ul li {
-  margin-top: 15px;
+  margin-top: 10px;
 
 }
 
@@ -115,6 +115,10 @@ main strong img {
   height: 25px;
 }
 
+.playlist {
+  margin-top: 20px;
+}
+
 
 /* barra laterale*/
 
@@ -123,7 +127,11 @@ main strong img {
   background-color: rgb(0, 0, 0);
   height: 100%;
   color: rgb(218, 192, 192);
-  display: flex;
+  padding: 25px;
+}
+
+.top-sidebar {
+  height: calc(100% - 50px);
 }
 
 .spotify-logo {
@@ -142,9 +150,12 @@ main strong img {
 }
 
 .fondo {
-  display: flex;
-  flex-direction: column;
+  height: 50px;
 
+}
+
+.app {
+  margin-bottom: 10px;
 }
 
 
