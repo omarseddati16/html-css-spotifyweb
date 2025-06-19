@@ -10,7 +10,6 @@ ul {
   list-style-type: none;
 }
 
-
 .h-m:hover {
   cursor: pointer;
   transform: scale(1.1);
@@ -33,7 +32,6 @@ ul {
 .p-20 {
   padding: 20px;
 }
-
 
 .p-10 {
   padding: 10px;
@@ -86,10 +84,7 @@ header {
 
 }
 
-
 /* main */
-
-
 
 main {
   height: calc(100vh - 100px);
@@ -145,8 +140,9 @@ main strong img {
 
 .profile {
   height: 20px;
-  color: white;
+  color: rgb(0, 0, 0);
   margin-top: 10px;
+
 }
 
 .grande {
@@ -335,6 +331,9 @@ footer img {
 
   /* contenuto main 768px */
 
+  .scritte {
+    flex-wrap: wrap;
+  }
 
   .recente {
     display: flex;
@@ -347,7 +346,6 @@ footer img {
     display: flex;
     flex-direction: column;
     height: 360px;
-
   }
 
   .spazio-t2 {
@@ -372,14 +370,54 @@ footer img {
 
   /* barra laterale 768px */
 
+
+  #b-laterale div ul li.playlist.h-m {
+    display: none;
+  }
+
+  #b-laterale h3.playlist {
+    display: none;
+  }
+
+  #b-laterale div ul li i {
+    display: none;
+  }
+
+  #b-laterale .fondo .app {
+    display: none;
+  }
+
+  #b-laterale .fondo hr {
+    display: none;
+  }
+
+  #b-laterale .fondo h4 {
+    font-size: 0;
+  }
+
+  #b-laterale .top-sidebar ul.playlist li {
+    font-size: 0;
+  }
+
+  #b-laterale .top-sidebar li {
+    font-size: 0;
+  }
+
   #b-laterale {
     width: 100px;
+    padding: 35px;
   }
 
   #contenuto {
     height: 100%;
     width: calc(100vw - 100px);
   }
+
+  .spotify-logo {
+    max-width: 200%;
+
+  }
+
 
   /* footer 768px */
 
@@ -393,6 +431,10 @@ footer img {
 
   .barra-tempo {
     width: 30px;
+  }
+
+  .barra-volume {
+    width: 100px;
   }
 
 }
