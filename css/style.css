@@ -22,7 +22,7 @@ ul {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -55,6 +55,11 @@ ul {
 
 .p-110 {
   padding-top: 110px;
+}
+
+.p-left-10 {
+  padding-left: 10px;
+  color: white;
 }
 
 /* header nel main */
@@ -311,9 +316,10 @@ footer img {
   align-items: center;
 }
 
+
 /* altri schermi  */
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 
   .container {
     width: 100%;
@@ -341,7 +347,7 @@ footer img {
     display: flex;
     flex-direction: column;
     height: 360px;
-    text-align: center;
+
   }
 
   .spazio-t2 {
@@ -353,7 +359,7 @@ footer img {
     display: flex;
     flex-direction: column;
     height: 360px;
-    text-align: center;
+
   }
 
   .colonne-rotonde {
@@ -361,7 +367,7 @@ footer img {
     height: 360px;
     border-radius: 50%;
     margin: 8px;
-    text-align: center;
+
   }
 
   /* barra laterale 768px */
@@ -375,9 +381,23 @@ footer img {
     width: calc(100vw - 100px);
   }
 
+  /* footer 768px */
+
+  .interagire {
+    font-size: 23px;
+  }
+
+  .barra {
+    width: 150px;
+  }
+
+  .barra-tempo {
+    width: 30px;
+  }
+
 }
 
-@media screen and (width: 992px) {
+@media screen and (max-width: 992px) {
 
   .container {
     width: 100%;
