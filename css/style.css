@@ -23,7 +23,7 @@ ul {
 
 .container {
   width: 1200px;
-  margin: 10px;
+  margin: 0 auto;
 }
 
 .row {
@@ -188,6 +188,10 @@ main img {
 
 }
 
+.recente {
+  justify-content: center;
+}
+
 .colonne-iniziali {
   width: calc((100% / 6) - ((24px * 5) / 6));
   height: 150px;
@@ -307,28 +311,36 @@ footer img {
   align-items: center;
 }
 
-/* altri schermi */
+/* altri schermi  */
 
 @media screen and (min-width: 768px) {
 
   .container {
     width: 100%;
+
   }
 
-  /* contenuto main */
+  /* Header 768px */
+
+  header {
+    left: 100px;
+    width: calc(100vw - 100px);
+  }
+
+  /* contenuto main 768px */
+
 
   .recente {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 500px;
   }
 
   .colonne-iniziali {
     width: calc(50% - 23px);
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: 360px;
     text-align: center;
   }
 
@@ -340,17 +352,33 @@ footer img {
     width: calc(50% - 23px);
     display: flex;
     flex-direction: column;
-    width: 230px;
-    height: 250px;
+    height: 360px;
     text-align: center;
   }
 
   .colonne-rotonde {
     width: calc(50% - 23px);
-    height: 150px;
+    height: 360px;
     border-radius: 50%;
-    width: 230px;
     margin: 8px;
     text-align: center;
   }
+
+  /* barra laterale 768px */
+
+  #b-laterale {
+    width: 100px;
+  }
+
+  #contenuto {
+    height: 100%;
+    width: calc(100vw - 100px);
+  }
+
 }
+
+@media screen and (width: 992px) {
+
+  .container {
+    width: 100%;
+  }
