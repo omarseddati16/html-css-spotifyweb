@@ -50,6 +50,10 @@ ul {
 
 }
 
+.p-5 {
+  padding: 5px;
+}
+
 .p-rl-20 {
   padding: 0px 20px;
   color: white;
@@ -250,7 +254,7 @@ main img {
 
 .spazio-t3 {
   margin-top: 100px;
-  padding: 0px 0px 0px 20px;
+  padding: 0px 0px 10px 20px;
 }
 
 .scritte {
