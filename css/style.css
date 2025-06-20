@@ -139,6 +139,10 @@ main strong img {
   padding: 25px;
 }
 
+#b-laterale .spotify-logo-small {
+  display: none;
+}
+
 .crea {
   display: flex;
   align-items: center;
@@ -516,6 +520,10 @@ footer img {
     justify-content: flex-start;
   }
 
+  #b-laterale .spotify-logo {
+    display: none;
+  }
+
   #b-laterale div ul li.playlist.h-m {
     display: none;
   }
@@ -558,43 +566,44 @@ footer img {
     width: calc(100vw - 100px);
   }
 
-  .spotify-logo {
-    max-width: 200%;
-
+  #b-laterale .spotify-logo-small {
+    display: flex;
   }
 
-  /* footer 768px */
+}
 
-  .interagire {
-    font-size: 23px;
-  }
+/* footer 768px */
 
-  .barra {
-    width: 150px;
-  }
+.interagire {
+  font-size: 23px;
+}
 
-  .barra-tempo {
-    width: 30px;
-  }
+.barra {
+  width: 150px;
+}
 
-  .barra-volume {
-    width: 100px;
-  }
+.barra-tempo {
+  width: 30px;
+}
 
-  .spazio-t2 {
-    margin-top: 20px;
-  }
+.barra-volume {
+  width: 100px;
+}
 
-  .spazio-t3 {
-    margin-top: 60px;
-  }
+.spazio-t2 {
+  margin-top: 20px;
+}
 
-  .play {
-    height: 80%;
-  }
+.spazio-t3 {
+  margin-top: 60px;
+}
 
-  .play-cerchio {
-    height: 100%;
-  }
+.play {
+  height: 80%;
+}
+
+.play-cerchio {
+  height: 100%;
+}
 
 }
