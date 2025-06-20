@@ -31,7 +31,6 @@ ul {
 
 .row {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .p-20 {
@@ -450,9 +449,14 @@ footer img {
     flex-wrap: wrap;
   }
 
+  .recente {
+    flex-wrap: wrap;
+  }
+
   .colonne-iniziali {
     width: calc(25% - 16px);
     height: 240px;
+    flex-wrap: wrap;
   }
 
   .colonne-secondarie {
