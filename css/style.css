@@ -26,7 +26,6 @@ ul {
 
 .container {
   max-width: 1200px;
-
 }
 
 .row {
@@ -72,6 +71,10 @@ ul {
   color: white;
 }
 
+.m-l-5 {
+  margin-left: 5px;
+}
+
 /* header nel main */
 
 header {
@@ -87,7 +90,7 @@ header {
 }
 
 .btn {
-  padding: 12px 30px;
+  padding: 12px 55px;
   border-radius: 30px;
   color: rgb(255, 255, 255);
   background-color: rgb(19, 18, 18);
@@ -192,7 +195,6 @@ main img {
   width: calc(100vw - 250px);
   background-color: rgb(46, 55, 73);
   overflow-y: auto;
-
 }
 
 .play {
@@ -246,12 +248,12 @@ main img {
 
 
 .spazio-t2 {
-  margin-top: 120px;
+  margin-top: 50px;
   padding: 0px 0px 0px 20px;
 }
 
 .spazio-t3 {
-  margin-top: 100px;
+  margin-top: 80px;
   padding: 0px 0px 10px 20px;
 }
 
@@ -266,21 +268,18 @@ main img {
 
 .colonne-iniziali {
   width: calc((100% / 6) - ((23px * 5) / 6));
-  height: 150px;
   margin: 8px;
   text-align: center;
 }
 
 .colonne-secondarie {
   width: calc(16.3% - 16px);
-  height: 150px;
   margin: 8px;
   text-align: center;
 }
 
 .colonne-rotonde {
   width: calc(17% - 23px);
-  height: 150px;
   border-radius: 50%;
   margin: 8px;
   text-align: center;
@@ -457,36 +456,20 @@ footer img {
 
   .colonne-iniziali {
     width: calc(25% - 16px);
-    height: 240px;
-    flex-wrap: wrap;
+    ì flex-wrap: wrap;
   }
 
   .colonne-secondarie {
     width: calc(25% - 16px);
-    height: 240px;
   }
 
   .colonne-rotonde {
     width: calc(25% - 16px);
-    height: 240px;
   }
 
   .spazio-t2 {
-    margin-top: 10px;
+    margin-top: 30px;
     padding: 0px 0px 0px 20px;
-  }
-
-
-
-
-  .play {
-    height: 100%;
-    width: 100%;
-  }
-
-  .play-cerchio {
-    height: 100%;
-    width: 100%;
   }
 
 }
@@ -507,7 +490,7 @@ footer img {
     width: calc(50% - 23px);
     display: flex;
     flex-direction: column;
-    height: 350px;
+
 
   }
 
@@ -515,14 +498,13 @@ footer img {
     width: calc(50% - 23px);
     display: flex;
     flex-direction: column;
-    height: 290px;
+
   }
 
   .colonne-rotonde {
     width: calc(50% - 23px);
     display: flex;
     flex-direction: column;
-    height: 290px;
   }
 
   .recente {
@@ -547,8 +529,8 @@ footer img {
     display: none;
   }
 
-  #b-laterale .fondo .app {
-    display: none;
+  #b-laterale .fondo span {
+    font-size: 0;
   }
 
   #b-laterale .fondo hr {
@@ -581,12 +563,16 @@ footer img {
     display: flex;
   }
 
+  .download {
+    display: flex;
+  }
 
 
   /* footer 768px */
 
   .interagire {
-    font-size: 23px;
+    font-size: 3px;
+    padding: 10px;
   }
 
   .barra {
@@ -598,17 +584,16 @@ footer img {
   }
 
   .barra-volume {
-    width: 100px;
+    width: 70px;
   }
 
-  .play {
-    height: 100%;
-    width: 100%;
+  .heart {
+    margin-bottom: 10px;
   }
 
-  .play-cerchio {
-    height: 100%;
-    width: 100%;
+  .download {
+    margin-left: 3px;
+
   }
 
 }
